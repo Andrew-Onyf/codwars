@@ -17,7 +17,7 @@ getAverage = ([1, 2, 3, 4, 5])
 
 
 function getAverage(marks){
-    //TODO : calculate the downward rounded average of the marks array
+    //  calculate the downward rounded average of the marks array
     let sum = marks.reduce((accumulator, item) =>
         accumulator + item
     );

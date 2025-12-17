@@ -9,5 +9,4 @@ function getAge(inputString) {
     const num = inputString[0]
     return Number(num)
 }
-
-console.log(getAge("5 years old"))
+getAge(getAge("1 year old"))
